@@ -1,0 +1,106 @@
+ 	<!DOCTYPE html>
+<html>
+<head>
+	<title>Fancy Login Form </title>
+	<style>
+		body{
+			background-image: url(https://www.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-1-2020.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;		
+
+		}
+		.form-group input[type="text"],.form-group input[type="password"],select{
+				border:none	;
+				outline:none;
+				height:30px;
+				width:220px;
+				margin:15px;
+				background:transparent;
+				border-radius:20px;
+				border-bottom: 2px solid white;
+				color:white;
+				font-size: 20px;
+		}
+		select{
+			width:224px;
+			color: white;
+		}
+		select option{
+			background-color: black;
+		}
+		::placeholder
+		{
+			color:white;
+		}
+		#login{
+			background:linear-gradient(135deg,red,black,yellow);
+			width:300px;
+			margin:80px auto;
+			padding:25px;
+			border-radius:20px;
+			box-shadow: 0px 0px 10px white;
+		}
+		#abc input[type="submit"]{
+			height:40px;
+			width:220px;
+			margin-left:15px;
+			border-radius:20px;
+			border:none;
+			outline:none;
+			background:linear-gradient(45deg,black,white,black);
+			color:black;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		input[type="submit"]:hover{
+			box-shadow: 0px 0px 10px white;
+			cursor: pointer;
+		}
+		#profile{
+				margin:-55px 0px 5px 100px;
+		}
+		#profile img{
+				border-radius: 33px;
+				box-shadow: 0 0 10px white;
+		}
+		footer{
+			color: white;
+			text-align: center;
+			margin-top: 170px;
+		}
+	</style>
+</head>
+<body>
+	<div id="login">
+		<div id="profile">
+			<img src="E:\WebTechnologies\HTML course\image app\Image\vn.jpg" height="70px" width="70px">
+		</div>
+	<form>
+		<div class="form-group">
+		<input type="text" placeholder="Enter Username">
+		</div>
+		<div class="form-group">
+		<input type="text" placeholder="Enter Email">
+	</div>
+	<div class="form-group">
+		<input type="password" placeholder="Enter password">
+	</div>
+	<div class="form-group">
+		<input type="password" placeholder="Enter Confirm password">
+	</div>
+	<div class="form-group">
+		<select>
+			<option>Select Designation</option>
+			<option>Team Leader</option>
+			<option>Project Manager</option>
+			<option>Manager</option>
+		</select>
+	</div>
+	<div id="abc">
+			<input type="submit">
+	</div>
+	</form>
+</div>
+<footer>COPYRIGHT @ 2021 VASU WEB PVT.LTD.ALL RIGHTS RESERVED</footer>
+</body>
+</html>
